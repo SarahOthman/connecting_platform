@@ -1,0 +1,945 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Moxatex Marketing">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Correspondence</title>
+    <link rel="shortcut icon" href="assets/images/favicon.png">
+    <!-- For English version -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/css/bootstrap.min.css">  -->
+    <!-- For Arabic version -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/css/bootstrap.rtl.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap" rel="stylesheet">
+    <link href="assets/css/jquery.dm-uploader.min.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+  
+</head>
+<body class="rtl"> <!-- Remove cLass="rtl" in arabic version -->
+    <header>
+        <div id="logo">
+            <a href="dashboard.html"><img src="assets/images/logo.png" alt="logo image"></a>
+        </div>
+        <div id="top-bar">
+            <div class="container">
+                <div class="d-flex justify-content-end align-items-center top-options">
+                    <div class="user-name">
+                        <p class="mb-0 text-white">محمد ربيع محمد أحمد</p>
+                    </div>
+                    <div class="notifications">
+                        <div class="icon">
+                            <a href="#">
+                                <span class="dot"></span>
+                                <span> <i class="fas fa-bell"></i> </span>
+                            </a>
+                        </div>
+                        <div id="dropdown">
+                            <ul class="list-unstyled mb-0">
+                                <li><a href="#">هناك العديد من الانواع المتوفرة لنصوص</a></li>
+                                <li><a href="#">هناك العديد من الانواع المتوفرة لنصوص</a></li>
+                                <li><a href="#">هناك العديد من الانواع المتوفرة لنصوص</a></li>
+                                <li><a href="#">هناك العديد من الانواع المتوفرة لنصوص</a></li>
+                                <li><a href="#">هناك العديد من الانواع المتوفرة لنصوص</a></li>
+                                <li><a href="#">هناك العديد من الانواع المتوفرة لنصوص</a></li>
+                            </ul>
+                            <div class="see-more">
+                                <a href="#">المزيد 99+</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="logout">
+                        <div class="icon">
+                            <a href="login.html">
+                                <span>
+                                    <i class="fas fa-arrow-right-from-bracket"></i>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>  
+            </div>
+        </div>
+        <div id="bottom-header">
+            <div class="container">
+                <div class="d-flex justify-content-end justify-content-lg-between align-items-center">
+                    <div id="main-menu" class="flex-grow-1">
+                        <div id="mobile-logo" class="d-md-none">
+                            <a href="dashboard.html"><img src="assets/images/logo.png" alt="logo image"></a>
+                        </div>
+                        <ul class="d-lg-flex justify-content-xl-center justify-content-lg-end gap-4 list-unstyled mb-0 me-lg-4">
+                            <li>
+                                <a href="dashboard.html">الرئيسية</a>
+                            </li>
+                            <li>
+                                <a href="send-info.html" class="active">ارسال معلومة مكانية</a>
+                            </li>
+                            <li>
+                                <a href="info-details.html">استقبال معلومة مكانية</a>
+                            </li>
+                            <li>
+                                <a href="#">التقارير</a>
+                            </li>
+                        </ul>
+                        <div class="exchange d-sm-none">
+                            <a data-bs-toggle="modal" href="#exchangeAttachmentsModal" role="button" class="btn-switch">
+                                <span class="icon"><i class="fas fa-arrow-right-arrow-left"></i></span>
+                                <span>تبادل المرفقات</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="d-none d-sm-block">
+                        <a data-bs-toggle="modal" href="#exchangeAttachmentsModal" role="button" class="btn-switch">
+                            <span class="icon"><i class="fas fa-arrow-right-arrow-left"></i></span>
+                            <span>تبادل المرفقات</span>
+                        </a>
+                    </div>
+                    <div class="toggle-menu d-lg-none">
+                        <div class="menu-icon">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div id="main-wrapper">
+        <div id="corr-details" class="h-100">
+            <div class="container h-100">
+                <div class="card my-4">
+                    <div class="d-flex flex-wrap align-items-center justify-content-between border-bottom card-top">
+                        <h6 class="text-primary">محمد ربيع محمد أحمد<span class="text-lightgrey ms-2">(5233232662)</span></h6>
+                        <p class="date text-lightgrey mb-1">
+                            <span><i class="far fa-calendar-days"></i></span>
+                            <span>26/3/2019</span>
+                        </p>
+                    </div>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="title">
+                                    <p class="text-primary fw-bold mb-1">موضوع المراسلة</p>
+                                    <p class="text-dark mb-4">هناك حقيقة مثبتة منذ زمن طويل وهى أن المحتوى المقروء</p>
+                                </div>
+                                <div class="desc">
+                                    <p class="text-primary fw-bold mb-1">الشرح</p>
+                                    <p class="text-dark mb-4">هنالك العديد من الأنواع المتوفرة لنصوص لوريم إيبسوم، ولكن الغالبية تم تعديلها بشكل ما عبر إدخال بعض النوادر أو الكلمات العشوائية إلى النص. إن كنت تريد أن تستخدم نص لوريم إيبسوم ما، عليك أن تتحقق أولاً أن ليس هناك أي كلمات أو عبارات محرجة أو غير لائقة مخبأة في هذا النص. بينما تعمل جميع مولّدات نصوص لوريم إيبسوم على الإنترنت على إعادة تكرار مقاطع من نص لوريم إيبسوم نفسه عدة مرات بما تتطلبه الحاجة، يقوم مولّدنا هذا باستخدام كلمات من قاموس يحوي على أكثر من 200 كلمة لا تينية، مضاف إليها مجموعة من الجمل النموذجية، لتكوين نص لوريم إيبسوم ذو شكل منطقي قريب إلى النص الحقيقي. وبالتالي يكون النص الناتح خالي من التكرار، أو أي كلمات أو عبارات غير لائقة أو ما شابه. وهذا ما يجعله أول مولّد نص لوريم إيبسوم حقيقي على الإنترنت.</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="corr-tabs h-100">
+                                    <ul class="nav nav-pills justify-content-center mb-3" id="pills-tab" role="tablist">
+                                        <li class="nav-item text-center w-50" role="presentation">
+                                          <button class="nav-link w-100 active" id="uploads-tab" data-bs-toggle="pill" data-bs-target="#uploads" type="button" role="tab" aria-controls="uploads" aria-selected="true">المرفقات و الروابط</button>
+                                        </li>
+                                        <li class="nav-item text-center w-50" role="presentation">
+                                          <button class="nav-link w-100" id="correspondence-tab" data-bs-toggle="pill" data-bs-target="#correspondence" type="button" role="tab" aria-controls="correspondence" aria-selected="false">
+                                            المراسلات
+                                            <span class="count">+3</span>
+                                          </button>
+                                        </li>
+                                    </ul>
+                                    <div class="tab-content" id="pills-tabContent">
+                                        <div class="tab-pane fade show active" id="uploads" role="tabpanel" aria-labelledby="uploads-tab">
+                                            <ul class="list-unstyled">
+                                                <li class="d-flex justify-content-between align-items-center mb-2">
+                                                    <div class="d-flex gap-3">
+                                                        <div class="img">
+                                                            <img src="assets/images/pdf.svg" alt="pdf image">
+                                                        </div>
+                                                        <div>
+                                                            <h6 class="media-title text-primary fw-600 mb-1">اسم المرفق</h6>
+                                                            <p class="text-lightgrey mb-1">نوع المرفق</p>
+                                                        </div>
+                                                    </div>
+                                                    <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-content="التاريخ : 26/03/2019 الشرح : نص الشرح يوضع هنا">
+                                                        <button class="btn" type="button" disabled><i class="fas fa-info"></i></button>
+                                                    </span>
+                                                </li>
+                                                <li class="d-flex justify-content-between align-items-center mb-2">
+                                                    <div class="d-flex gap-3">
+                                                        <div class="img">
+                                                            <img src="assets/images/image-gallery.svg" alt="pdf image">
+                                                        </div>
+                                                        <div>
+                                                            <h6 class="media-title text-primary fw-600 mb-1">اسم المرفق</h6>
+                                                            <p class="text-lightgrey mb-1">نوع المرفق</p>
+                                                        </div>
+                                                    </div>
+                                                    <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-content="التاريخ : 26/03/2019 الشرح : نص الشرح يوضع هنا">
+                                                        <button class="btn" type="button" disabled><i class="fas fa-info"></i></button>
+                                                    </span>
+                                                </li>
+                                                <li class="d-flex justify-content-between align-items-center mb-2">
+                                                    <div class="d-flex gap-3">
+                                                        <div class="img">
+                                                            <img src="assets/images/pdf.svg" alt="pdf image">
+                                                        </div>
+                                                        <div>
+                                                            <h6 class="media-title text-primary fw-600 mb-1">اسم المرفق</h6>
+                                                            <p class="text-lightgrey mb-1">نوع المرفق</p>
+                                                        </div>
+                                                    </div>
+                                                    <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-content="التاريخ : 26/03/2019 الشرح : نص الشرح يوضع هنا">
+                                                        <button class="btn" type="button" disabled><i class="fas fa-info"></i></button>
+                                                    </span>
+                                                </li>
+                                                <li class="d-flex justify-content-between align-items-center mb-2">
+                                                    <div class="d-flex gap-3">
+                                                        <div class="img">
+                                                            <img src="assets/images/image-gallery.svg" alt="pdf image">
+                                                        </div>
+                                                        <div>
+                                                            <h6 class="media-title text-primary fw-600 mb-1">اسم المرفق</h6>
+                                                            <p class="text-lightgrey mb-1">نوع المرفق</p>
+                                                        </div>
+                                                    </div>
+                                                    <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-content="التاريخ : 26/03/2019 الشرح : نص الشرح يوضع هنا">
+                                                        <button class="btn" type="button" disabled><i class="fas fa-info"></i></button>
+                                                    </span>
+                                                </li>
+                                                <li class="d-flex justify-content-between align-items-center mb-2">
+                                                    <div class="d-flex gap-3">
+                                                        <div class="img">
+                                                            <img src="assets/images/external-link-symbol.svg" alt="pdf image">
+                                                        </div>
+                                                        <div>
+                                                            <h6 class="media-title text-primary fw-600 mb-1">اسم المرفق</h6>
+                                                            <p class="text-lightgrey mb-1">نوع المرفق</p>
+                                                        </div>
+                                                    </div>
+                                                    <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-content="التاريخ : 26/03/2019 الشرح : نص الشرح يوضع هنا">
+                                                        <button class="btn" type="button" disabled><i class="fas fa-info"></i></button>
+                                                    </span>
+                                                </li>
+                                                <li class="d-flex justify-content-between align-items-center mb-2">
+                                                    <div class="d-flex gap-3">
+                                                        <div class="img">
+                                                            <img src="assets/images/external-link-symbol.svg" alt="pdf image">
+                                                        </div>
+                                                        <div>
+                                                            <h6 class="media-title text-primary fw-600 mb-1">اسم المرفق</h6>
+                                                            <p class="text-lightgrey mb-1">نوع المرفق</p>
+                                                        </div>
+                                                    </div>
+                                                    <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-content="التاريخ : 26/03/2019 الشرح : نص الشرح يوضع هنا">
+                                                        <button class="btn" type="button" disabled><i class="fas fa-info"></i></button>
+                                                    </span>
+                                                </li>
+                                                <li class="d-flex justify-content-between align-items-center mb-2">
+                                                    <div class="d-flex gap-3">
+                                                        <div class="img">
+                                                            <img src="assets/images/external-link-symbol.svg" alt="pdf image">
+                                                        </div>
+                                                        <div>
+                                                            <h6 class="media-title text-primary fw-600 mb-1">اسم المرفق</h6>
+                                                            <p class="text-lightgrey mb-1">نوع المرفق</p>
+                                                        </div>
+                                                    </div>
+                                                    <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-content="التاريخ : 26/03/2019 الشرح : نص الشرح يوضع هنا">
+                                                        <button class="btn" type="button" disabled><i class="fas fa-info"></i></button>
+                                                    </span>
+                                                </li>
+                                                <li class="d-flex justify-content-between align-items-center mb-2">
+                                                    <div class="d-flex gap-3">
+                                                        <div class="img">
+                                                            <img src="assets/images/external-link-symbol.svg" alt="pdf image">
+                                                        </div>
+                                                        <div>
+                                                            <h6 class="media-title text-primary fw-600 mb-1">اسم المرفق</h6>
+                                                            <p class="text-lightgrey mb-1">نوع المرفق</p>
+                                                        </div>
+                                                    </div>
+                                                    <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-content="التاريخ : 26/03/2019 الشرح : نص الشرح يوضع هنا">
+                                                        <button class="btn" type="button" disabled><i class="fas fa-info"></i></button>
+                                                    </span>
+                                                </li>
+                                                <li class="d-flex justify-content-between align-items-center mb-2">
+                                                    <div class="d-flex gap-3">
+                                                        <div class="img">
+                                                            <img src="assets/images/external-link-symbol.svg" alt="pdf image">
+                                                        </div>
+                                                        <div>
+                                                            <h6 class="media-title text-primary fw-600 mb-1">اسم المرفق</h6>
+                                                            <p class="text-lightgrey mb-1">نوع المرفق</p>
+                                                        </div>
+                                                    </div>
+                                                    <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-content="التاريخ : 26/03/2019 الشرح : نص الشرح يوضع هنا">
+                                                        <button class="btn" type="button" disabled><i class="fas fa-info"></i></button>
+                                                    </span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="tab-pane fade" id="correspondence" role="tabpanel" aria-labelledby="correspondence-tab">
+                                            <ul class="list-unstyled corr-list">
+                                                <li class="mb-2">
+                                                    <h6 class="text-primary fw-bold mb-1">اسم مرسل المراسلة</h6>
+                                                    <p class="text-lightgrey mb-0">
+                                                        هناك حقيقة مثبتة منذ زمن طويل وهى أن المحتوى المقروء<br/>
+                                                        هناك حقيقة مثبتة منذ زمن طويل وهى أن المحتوى المقروء<br/>
+                                                        هناك حقيقة مثبتة منذ زمن طويل وهى أن المحتوى المقروء
+                                                    </p>
+                                                    <p class="date text-lightgrey text-end mb-0">
+                                                        <span><i class="far fa-calendar-days"></i></span>
+                                                        <span>26/3/2019</span>
+                                                    </p>
+                                                </li>
+                                                <li class="mb-2">
+                                                    <h6 class="text-primary fw-bold mb-1">اسم مرسل المراسلة</h6>
+                                                    <p class="text-lightgrey mb-0">
+                                                        هناك حقيقة مثبتة منذ زمن طويل وهى أن المحتوى المقروء<br/>
+                                                        هناك حقيقة مثبتة منذ زمن طويل وهى أن المحتوى المقروء<br/>
+                                                        هناك حقيقة مثبتة منذ زمن طويل وهى أن المحتوى المقروء
+                                                    </p>
+                                                    <p class="date text-lightgrey text-end mb-0">
+                                                        <span><i class="far fa-calendar-days"></i></span>
+                                                        <span>26/3/2019</span>
+                                                    </p>
+                                                </li>
+                                                <li class="mb-2">
+                                                    <h6 class="text-primary fw-bold mb-1">اسم مرسل المراسلة</h6>
+                                                    <p class="text-lightgrey mb-0">
+                                                        هناك حقيقة مثبتة منذ زمن طويل وهى أن المحتوى المقروء<br/>
+                                                        هناك حقيقة مثبتة منذ زمن طويل وهى أن المحتوى المقروء<br/>
+                                                        هناك حقيقة مثبتة منذ زمن طويل وهى أن المحتوى المقروء
+                                                    </p>
+                                                    <p class="date text-lightgrey text-end mb-0">
+                                                        <span><i class="far fa-calendar-days"></i></span>
+                                                        <span>26/3/2019</span>
+                                                    </p>
+                                                </li>
+                                                <li class="mb-2">
+                                                    <h6 class="text-primary fw-bold mb-1">اسم مرسل المراسلة</h6>
+                                                    <p class="text-lightgrey mb-0">
+                                                        هناك حقيقة مثبتة منذ زمن طويل وهى أن المحتوى المقروء<br/>
+                                                        هناك حقيقة مثبتة منذ زمن طويل وهى أن المحتوى المقروء<br/>
+                                                        هناك حقيقة مثبتة منذ زمن طويل وهى أن المحتوى المقروء
+                                                    </p>
+                                                    <p class="date text-lightgrey text-end mb-0">
+                                                        <span><i class="far fa-calendar-days"></i></span>
+                                                        <span>26/3/2019</span>
+                                                    </p>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="corr-btns d-flex flex-wrap justify-content-sm-end justify-content-center gap-2">
+                    <a data-bs-toggle="modal" href="#replyCorrModal" role="button" class="btn btn-reply bg-linear rounded-0 px-4">رد على المراسلات</a>
+                    <a href="send-info.html" class="btn btn-return bg-linear rounded-0 px-4">عودة</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="copyright text-center">
+            <p class="mb-0">
+                <span>أحد مشاريع</span>
+                <img src="assets/images/alqemam.png" alt="alqemam logo" class="mx-1">
+                <span>©2019</span>
+            </p>
+        </div>
+    </footer>
+    <div class="modal main-modal fade" id="exchangeAttachmentsModal" aria-hidden="true" aria-labelledby="exchangeAttachmentsModalLabel" tabindex="-1">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header align-items-center">
+                    <h6 class="modal-title fw-bold text-primary mb-1" id="exchangeAttachmentsModalLabel">تبادل مرفقات</h6>
+                    <button type="button" class="btn-close d-block" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="data-tab" data-bs-toggle="pill" data-bs-target="#data" type="button" role="tab" aria-controls="data" aria-selected="true">بيانات المراسلة</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="files-pill-tab" data-bs-toggle="pill" data-bs-target="#files-pill" type="button" role="tab" aria-controls="files-pill" aria-selected="false">مرفقات المراسلة</button>
+                        </li>
+                    </ul>
+                    <div class="tab-content" id="pills-tabContent">
+                        <div class="tab-pane fade show active" id="data" role="tabpanel" aria-labelledby="data-tab">
+                            <div class="data-form">
+                                <form>
+                                    <div class="users-blk mb-3">
+                                        <div>
+                                            <label for="username" class="form-label">اسم العميل المستبل للطلب</label>
+                                            <input type="text" id="username" name="username" class="form-control">
+                                        </div>
+                                        <button type="button" class="add-user btn-add bg-linear" data-bs-toggle="tooltip" data-bs-placement="top" title="اضافة أكثر من مستقبل">
+                                            <div class="icon">
+                                                <i class="fas fa-plus"></i>
+                                            </div>
+                                        </button>
+                                        <div class="users-list form-control">
+                                            <div class="row">
+                                                <div class="col-lg-4">
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" name="remember" type="checkbox" value="1" checked>
+                                                        <label class="form-check-label">اسم الموظف رقم واحد</label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4">
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" name="remember" type="checkbox" value="2" checked>
+                                                        <label class="form-check-label">اسم الموظف رقم واحد</label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4">
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" name="remember" type="checkbox" value="3" checked>
+                                                        <label class="form-check-label">اسم الموظف رقم واحد</label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4">
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" name="remember" type="checkbox" value="4" checked>
+                                                        <label class="form-check-label">اسم الموظف رقم واحد</label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4">
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" name="remember" type="checkbox" value="5" checked>
+                                                        <label class="form-check-label">اسم الموظف رقم واحد</label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4">
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" name="remember" type="checkbox" value="6" checked>
+                                                        <label class="form-check-label">اسم الموظف رقم واحد</label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4">
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" name="remember" type="checkbox" value="7" checked>
+                                                        <label class="form-check-label">اسم الموظف رقم واحد</label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4">
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" name="remember" type="checkbox" value="8">
+                                                        <label class="form-check-label">اسم الموظف رقم واحد</label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4">
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" name="remember" type="checkbox" value="9">
+                                                        <label class="form-check-label">اسم الموظف رقم واحد</label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4">
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" name="remember" type="checkbox" value="10">
+                                                        <label class="form-check-label">اسم الموظف رقم واحد</label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4">
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" name="remember" type="checkbox" value="11">
+                                                        <label class="form-check-label">اسم الموظف رقم واحد</label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4">
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" name="remember" type="checkbox" value="12">
+                                                        <label class="form-check-label">اسم الموظف رقم واحد</label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4">
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" name="remember" type="checkbox" value="13">
+                                                        <label class="form-check-label">اسم الموظف رقم واحد</label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4">
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" name="remember" type="checkbox" value="14">
+                                                        <label class="form-check-label">اسم الموظف رقم واحد</label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4">
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" name="remember" type="checkbox" value="15">
+                                                        <label class="form-check-label">اسم الموظف رقم واحد</label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4">
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" name="remember" type="checkbox" value="1" checked>
+                                                        <label class="form-check-label">اسم الموظف رقم واحد</label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4">
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" name="remember" type="checkbox" value="2" checked>
+                                                        <label class="form-check-label">اسم الموظف رقم واحد</label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4">
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" name="remember" type="checkbox" value="3" checked>
+                                                        <label class="form-check-label">اسم الموظف رقم واحد</label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4">
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" name="remember" type="checkbox" value="4" checked>
+                                                        <label class="form-check-label">اسم الموظف رقم واحد</label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4">
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" name="remember" type="checkbox" value="5" checked>
+                                                        <label class="form-check-label">اسم الموظف رقم واحد</label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4">
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" name="remember" type="checkbox" value="6" checked>
+                                                        <label class="form-check-label">اسم الموظف رقم واحد</label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="subject" class="form-label">الموضوع</label>
+                                        <input type="text" id="subject" name="subjects" class="form-control">
+                                    </div>
+                                    <div>
+                                        <label for="explanation" class="form-label">الشرح</label>
+                                        <textarea type="text" id="explanation" name="explanation" class="form-control"></textarea>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="files-pill" role="tabpanel" aria-labelledby="files-pill-tab">
+                            <div class="row">
+                                <div class="col-lg-7 border-end">
+                                    <div class="files-form">
+                                        <form>
+                                            <div class="mb-3">
+                                                <label for="file_type" class="form-label">نوع المرفق</label>
+                                                <input type="text" id="file_type" name="file_type" class="form-control">
+                                            </div>
+                                            <div class="mb-3">
+                                                <label for="file_explanation" class="form-label">الشرح</label>
+                                                <textarea type="text" id="file_explanation" name="file_explanation" class="form-control"></textarea>
+                                            </div>
+                                            <div id="drag-and-drop-zone" class="dm-uploader text-center">
+                                                <h6 class="text-primary fw-bold mb-3">أسحب المرفقات هنا</h6>
+                                    
+                                                <div class="btn btn-block">
+                                                    <span><i class="fas fa-plus"></i></span>
+                                                    <input type="file" title='Click to add Files'>
+                                                </div>
+                                            </div><!-- /uploader -->
+                                            <div class="divider"><span class="text-primary fw-bold">أضف رابط</span></div>
+                                            <div class="mb-3">
+                                                <label for="file_type" class="form-label">عنوان الرابط</label>
+                                                <input type="text" id="file_type" name="file_type" class="form-control">
+                                            </div>
+                                            <div class="mb-3 position-relative">
+                                                <div>
+                                                    <label for="username" class="form-label">الرابط</label>
+                                                    <input type="text" id="username" name="username" class="form-control">
+                                                </div>
+                                                <button type="button" class="add-link btn-add bg-linear" data-bs-toggle="tooltip" data-bs-placement="top" title="اضافة رابط اخر">
+                                                    <div class="icon">
+                                                        <i class="fas fa-plus"></i>
+                                                    </div>
+                                                </button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                                <div class="col-lg-5">
+                                    <div class="files-list">
+                                        <ul class="list-unstyled d-flex flex-column col" id="files">
+                                            <li class="media" id="uploaderFileg18jhvly849">
+                                                <div class="media-body d-flex justify-content-between gap-2">
+                                                  <div class="flex-grow-1">
+                                                      <p class="mb-2 fw-500"> اسم المرفق </p>
+                                                      <div class="progress mb-2">
+                                                          <div class="progress-bar bg-primary" role="progressbar" style="width: 70%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+                                                      </div>
+                                                  </div>
+                                                  <button class="btn btn-remove p-0"><i class="fas fa-xmark"></i></button>
+                                                </div>
+                                            </li>
+                                            <li class="media" id="uploaderFileg18jhvly849">
+                                                <div class="media-body d-flex justify-content-between gap-2">
+                                                  <div class="flex-grow-1">
+                                                      <p class="mb-2 fw-500"> اسم المرفق </p>
+                                                      <div class="progress mb-2">
+                                                          <div class="progress-bar bg-primary" role="progressbar" style="width: 25%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+                                                      </div>
+                                                  </div>
+                                                  <button class="btn btn-remove p-0"><i class="fas fa-xmark"></i></button>
+                                                </div>
+                                            </li>
+                                            <li class="media" id="uploaderFileg18jhvly849">
+                                                <div class="media-body d-flex justify-content-between gap-2">
+                                                  <div class="flex-grow-1">
+                                                      <p class="mb-2 fw-500"> اسم المرفق </p>
+                                                      <div class="progress mb-2">
+                                                          <div class="progress-bar bg-primary" role="progressbar" style="width: 50%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+                                                      </div>
+                                                  </div>
+                                                  <button class="btn btn-remove p-0"><i class="fas fa-xmark"></i></button>
+                                                </div>
+                                            </li>
+                                            <li class="media" id="uploaderFileg18jhvly849">
+                                                <div class="media-body d-flex justify-content-between gap-2">
+                                                  <div class="flex-grow-1">
+                                                      <p class="mb-2 fw-500"> اسم المرفق </p>
+                                                      <div class="progress mb-2">
+                                                          <div class="progress-bar bg-primary" role="progressbar" style="width: 30%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+                                                      </div>
+                                                  </div>
+                                                  <button class="btn btn-remove p-0"><i class="fas fa-xmark"></i></button>
+                                                </div>
+                                            </li>
+                                            <li class="media" id="uploaderFileg18jhvly849">
+                                                <div class="media-body d-flex justify-content-between gap-2">
+                                                  <div class="flex-grow-1">
+                                                      <p class="mb-2 fw-500"> اسم المرفق </p>
+                                                      <div class="progress mb-2">
+                                                          <div class="progress-bar bg-primary" role="progressbar" style="width: 50%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+                                                      </div>
+                                                  </div>
+                                                  <button class="btn btn-remove p-0"><i class="fas fa-xmark"></i></button>
+                                                </div>
+                                            </li>
+                                            <li class="media" id="uploaderFileg18jhvly849">
+                                                <div class="media-body d-flex justify-content-between gap-2">
+                                                  <div class="flex-grow-1">
+                                                      <p class="mb-2 fw-500"> اسم المرفق </p>
+                                                      <div class="progress mb-2">
+                                                          <div class="progress-bar bg-primary" role="progressbar" style="width: 90%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+                                                      </div>
+                                                  </div>
+                                                  <button class="btn btn-remove p-0"><i class="fas fa-xmark"></i></button>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="links-list">
+                                        <ul class="list-unstyled">
+                                            <li class="mb-2">
+                                                <div class="d-flex align-items-center justify-content-between">
+                                                    <div class="title">
+                                                        <h6 class="mb-1">عنوان الرابط</h6>
+                                                        <p class="mb-0">www.mockflow.com</p>
+                                                    </div>
+                                                    <div class="btns">
+                                                        <button class="btn btn-edit p-0 me-2"><i class="fas fa-pen"></i></button>
+                                                        <button class="btn btn-remove p-0"><i class="fas fa-xmark"></i></button>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li class="mb-2">
+                                                <div class="d-flex align-items-center justify-content-between">
+                                                    <div class="title">
+                                                        <h6 class="mb-1">عنوان الرابط</h6>
+                                                        <p class="mb-0">www.mockflow.com</p>
+                                                    </div>
+                                                    <div class="btns">
+                                                        <button class="btn btn-edit p-0 me-2"><i class="fas fa-pen"></i></button>
+                                                        <button class="btn btn-remove p-0"><i class="fas fa-xmark"></i></button>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li class="mb-2">
+                                                <div class="d-flex align-items-center justify-content-between">
+                                                    <div class="title">
+                                                        <h6 class="mb-1">عنوان الرابط</h6>
+                                                        <p class="mb-0">www.mockflow.com</p>
+                                                    </div>
+                                                    <div class="btns">
+                                                        <button class="btn btn-edit p-0 me-2"><i class="fas fa-pen"></i></button>
+                                                        <button class="btn btn-remove p-0"><i class="fas fa-xmark"></i></button>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li class="mb-2">
+                                                <div class="d-flex align-items-center justify-content-between">
+                                                    <div class="title">
+                                                        <h6 class="mb-1">عنوان الرابط</h6>
+                                                        <p class="mb-0">www.mockflow.com</p>
+                                                    </div>
+                                                    <div class="btns">
+                                                        <button class="btn btn-edit p-0 me-2"><i class="fas fa-pen"></i></button>
+                                                        <button class="btn btn-remove p-0"><i class="fas fa-xmark"></i></button>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li class="mb-2">
+                                                <div class="d-flex align-items-center justify-content-between">
+                                                    <div class="title">
+                                                        <h6 class="mb-1">عنوان الرابط</h6>
+                                                        <p class="mb-0">www.mockflow.com</p>
+                                                    </div>
+                                                    <div class="btns">
+                                                        <button class="btn btn-edit p-0 me-2"><i class="fas fa-pen"></i></button>
+                                                        <button class="btn btn-remove p-0"><i class="fas fa-xmark"></i></button>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="text-end position-relative">
+                                        <button type="button" class="btn btn-send bg-linear px-5 rounded-0">
+                                            <span>إرسال</span>
+                                            <span class="icon"><i class="fas fa-arrow-left-long"></i></span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal main-modal fade" id="replyCorrModal" aria-hidden="true" aria-labelledby="replyCorrModalLabel" tabindex="-1">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header align-items-center">
+                    <h6 class="modal-title fw-bold text-primary mb-1" id="replyCorrModalLabel">رد على المرسلات</h6>
+                    <button type="button" class="btn-close d-block" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-lg-7 border-end">
+                            <div class="files-form">
+                                <form>
+                                    <div class="mb-3">
+                                        <label for="file_explanation" class="form-label">الرد على المراسلة</label>
+                                        <textarea type="text" id="file_explanation" name="file_explanation" class="form-control reply-field"></textarea>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="file_type" class="form-label">نوع المرفق</label>
+                                        <input type="text" id="file_type" name="file_type" class="form-control">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="file_explanation" class="form-label">الشرح</label>
+                                        <textarea type="text" id="file_explanation" name="file_explanation" class="form-control"></textarea>
+                                    </div>
+                                    <div id="drag-and-drop-zone" class="dm-uploader text-center">
+                                        <h6 class="text-primary fw-bold mb-3">أسحب المرفقات هنا</h6>
+                            
+                                        <div class="btn btn-block">
+                                            <span><i class="fas fa-plus"></i></span>
+                                            <input type="file" title='Click to add Files'>
+                                        </div>
+                                    </div><!-- /uploader -->
+                                    <div class="divider"><span class="text-primary fw-bold">أضف رابط</span></div>
+                                    <div class="mb-3">
+                                        <label for="file_type" class="form-label">عنوان الرابط</label>
+                                        <input type="text" id="file_type" name="file_type" class="form-control">
+                                    </div>
+                                    <div class="mb-3 position-relative">
+                                        <div>
+                                            <label for="username" class="form-label">الرابط</label>
+                                            <input type="text" id="username" name="username" class="form-control">
+                                        </div>
+                                        <button type="button" class="add-link btn-add bg-linear" data-bs-toggle="tooltip" data-bs-placement="top" title="اضافة رابط اخر">
+                                            <div class="icon">
+                                                <i class="fas fa-plus"></i>
+                                            </div>
+                                        </button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="col-lg-5">
+                            <div class="files-list">
+                                <ul class="list-unstyled d-flex flex-column col" id="files">
+                                    <li class="media" id="uploaderFileg18jhvly849">
+                                        <div class="media-body d-flex justify-content-between gap-2">
+                                          <div class="flex-grow-1">
+                                              <p class="mb-2 fw-500"> اسم المرفق </p>
+                                              <div class="progress mb-2">
+                                                  <div class="progress-bar bg-primary" role="progressbar" style="width: 70%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+                                              </div>
+                                          </div>
+                                          <button class="btn btn-remove p-0"><i class="fas fa-xmark"></i></button>
+                                        </div>
+                                    </li>
+                                    <li class="media" id="uploaderFileg18jhvly849">
+                                        <div class="media-body d-flex justify-content-between gap-2">
+                                          <div class="flex-grow-1">
+                                              <p class="mb-2 fw-500"> اسم المرفق </p>
+                                              <div class="progress mb-2">
+                                                  <div class="progress-bar bg-primary" role="progressbar" style="width: 25%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+                                              </div>
+                                          </div>
+                                          <button class="btn btn-remove p-0"><i class="fas fa-xmark"></i></button>
+                                        </div>
+                                    </li>
+                                    <li class="media" id="uploaderFileg18jhvly849">
+                                        <div class="media-body d-flex justify-content-between gap-2">
+                                          <div class="flex-grow-1">
+                                              <p class="mb-2 fw-500"> اسم المرفق </p>
+                                              <div class="progress mb-2">
+                                                  <div class="progress-bar bg-primary" role="progressbar" style="width: 50%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+                                              </div>
+                                          </div>
+                                          <button class="btn btn-remove p-0"><i class="fas fa-xmark"></i></button>
+                                        </div>
+                                    </li>
+                                    <li class="media" id="uploaderFileg18jhvly849">
+                                        <div class="media-body d-flex justify-content-between gap-2">
+                                          <div class="flex-grow-1">
+                                              <p class="mb-2 fw-500"> اسم المرفق </p>
+                                              <div class="progress mb-2">
+                                                  <div class="progress-bar bg-primary" role="progressbar" style="width: 30%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+                                              </div>
+                                          </div>
+                                          <button class="btn btn-remove p-0"><i class="fas fa-xmark"></i></button>
+                                        </div>
+                                    </li>
+                                    <li class="media" id="uploaderFileg18jhvly849">
+                                        <div class="media-body d-flex justify-content-between gap-2">
+                                          <div class="flex-grow-1">
+                                              <p class="mb-2 fw-500"> اسم المرفق </p>
+                                              <div class="progress mb-2">
+                                                  <div class="progress-bar bg-primary" role="progressbar" style="width: 50%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+                                              </div>
+                                          </div>
+                                          <button class="btn btn-remove p-0"><i class="fas fa-xmark"></i></button>
+                                        </div>
+                                    </li>
+                                    <li class="media" id="uploaderFileg18jhvly849">
+                                        <div class="media-body d-flex justify-content-between gap-2">
+                                          <div class="flex-grow-1">
+                                              <p class="mb-2 fw-500"> اسم المرفق </p>
+                                              <div class="progress mb-2">
+                                                  <div class="progress-bar bg-primary" role="progressbar" style="width: 90%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+                                              </div>
+                                          </div>
+                                          <button class="btn btn-remove p-0"><i class="fas fa-xmark"></i></button>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="links-list">
+                                <ul class="list-unstyled">
+                                    <li class="mb-2">
+                                        <div class="d-flex align-items-center justify-content-between">
+                                            <div class="title">
+                                                <h6 class="mb-1">عنوان الرابط</h6>
+                                                <p class="mb-0">www.mockflow.com</p>
+                                            </div>
+                                            <div class="btns">
+                                                <button class="btn btn-edit p-0 me-2"><i class="fas fa-pen"></i></button>
+                                                <button class="btn btn-remove p-0"><i class="fas fa-xmark"></i></button>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="mb-2">
+                                        <div class="d-flex align-items-center justify-content-between">
+                                            <div class="title">
+                                                <h6 class="mb-1">عنوان الرابط</h6>
+                                                <p class="mb-0">www.mockflow.com</p>
+                                            </div>
+                                            <div class="btns">
+                                                <button class="btn btn-edit p-0 me-2"><i class="fas fa-pen"></i></button>
+                                                <button class="btn btn-remove p-0"><i class="fas fa-xmark"></i></button>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="mb-2">
+                                        <div class="d-flex align-items-center justify-content-between">
+                                            <div class="title">
+                                                <h6 class="mb-1">عنوان الرابط</h6>
+                                                <p class="mb-0">www.mockflow.com</p>
+                                            </div>
+                                            <div class="btns">
+                                                <button class="btn btn-edit p-0 me-2"><i class="fas fa-pen"></i></button>
+                                                <button class="btn btn-remove p-0"><i class="fas fa-xmark"></i></button>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="mb-2">
+                                        <div class="d-flex align-items-center justify-content-between">
+                                            <div class="title">
+                                                <h6 class="mb-1">عنوان الرابط</h6>
+                                                <p class="mb-0">www.mockflow.com</p>
+                                            </div>
+                                            <div class="btns">
+                                                <button class="btn btn-edit p-0 me-2"><i class="fas fa-pen"></i></button>
+                                                <button class="btn btn-remove p-0"><i class="fas fa-xmark"></i></button>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="mb-2">
+                                        <div class="d-flex align-items-center justify-content-between">
+                                            <div class="title">
+                                                <h6 class="mb-1">عنوان الرابط</h6>
+                                                <p class="mb-0">www.mockflow.com</p>
+                                            </div>
+                                            <div class="btns">
+                                                <button class="btn btn-edit p-0 me-2"><i class="fas fa-pen"></i></button>
+                                                <button class="btn btn-remove p-0"><i class="fas fa-xmark"></i></button>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="text-end position-relative">
+                                <button type="button" class="btn btn-send bg-linear px-5 rounded-0">
+                                    <span>إرسال</span>
+                                    <span class="icon"><i class="fas fa-arrow-left-long"></i></span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.8/umd/popper.min.js"  integrity="sha512-TPh2Oxlg1zp+kz3nFA0C5vVC6leG/6mm1z9+mA81MI5eaUVqasPLO8Cuk4gMF4gUfP5etR73rgU/8PNMsSesoQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/js/bootstrap.bundle.min.js"  integrity="sha512-sH8JPhKJUeA9PWk3eOcOl8U+lfZTgtBXD41q6cO/slwxGHCxKcW45K4oPCUhHG7NMB4mbKEddVmPuTXtpbCbFA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.dm-uploader.min.js"></script>
+    <script src="assets/js/main.js"></script>
+
+    <!-- File item template -->
+    <script type="text/html" id="files-template">
+        <li class="media">
+          <div class="media-body d-flex justify-content-between gap-2 mb-1">
+            <div class="flex-grow-1">
+                <p class="mb-2 fw-500"> اسم المرفق </p>
+                <div class="progress mb-2">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-primary" 
+                        role="progressbar"
+                        style="width: 20%" 
+                        aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+                    </div>
+                </div>
+            </div>
+            <button class="btn btn-remove p-0"><i class="fas fa-xmark"></i></button>
+          </div>
+        </li>
+    </script>
+  
+    <!-- Debug item template -->
+    <script type="text/html" id="debug-template">
+    <li class="list-group-item text-%%color%%"><strong>%%date%%</strong>: %%message%%</li>
+    </script>
+    
+</body>
+</html>
