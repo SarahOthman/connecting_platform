@@ -150,7 +150,9 @@ $(function () {
   }
   
   $( function() {
-    $( "#datepicker" ).datepicker();
+    if( $("#datepicker").length !=  0 ) {
+      $( "#datepicker" ).datepicker();
+    }
   });
 
   var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
