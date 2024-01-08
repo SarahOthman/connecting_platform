@@ -1492,7 +1492,7 @@ header #bottom-header .btn-switch:hover .icon {
 
 #dashboard {
   height: calc(100vh - 225px);
-  margin: 30px 0;
+  margin: 15px 0;
 }
 @media (max-width: 575.98px) {
   #dashboard {
